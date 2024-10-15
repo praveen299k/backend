@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Express Framework"
+}
+
+###
+GET http://localhost:3001/api/notes
+
+###
+DELETE http://localhost:3001/api/notes/2
